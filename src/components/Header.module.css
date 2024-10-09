@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.upperNav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.hamburger {
+  font-size: xx-large;
+  color: grey;
+}
+
+.logo {
+  font-size: xx-large;
+}
