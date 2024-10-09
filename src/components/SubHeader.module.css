@@ -1,0 +1,11 @@
+.subHeader {
+  display: flex;
+  align-items: center;
+  background-color: #222222;
+  height: 1.8rem;
+}
+
+.welcome {
+  margin: 0 1rem;
+  color: white;
+}
