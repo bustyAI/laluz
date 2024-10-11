@@ -1,0 +1,47 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 30px 20px;
+}
+
+.aboutHeadings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.aboutHeadings div h3 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.aboutUs {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aboutUsContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.aboutUsText {
+  font-size: x-large;
+  margin: 0;
+}
+
+.aboutUsNumber {
+  margin: 0;
+}
