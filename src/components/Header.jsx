@@ -13,9 +13,8 @@ export default function Header() {
         <GiAbstract005 className={styles.logo} />
         <RxHamburgerMenu className={styles.hamburger} />
       </div>
-      <div>
-        <SubHeader />
-      </div>
+      <SubHeader />
+
     </nav>
   )
 }
