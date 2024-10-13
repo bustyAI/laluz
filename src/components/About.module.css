@@ -17,8 +17,9 @@
 }
 
 .aboutHeadings div h3 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .aboutUs {
@@ -44,4 +45,30 @@
 
 .aboutUsNumber {
   margin: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(3rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  animation: fadeInUp 3s ease-in-out;
 }

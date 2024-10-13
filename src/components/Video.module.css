@@ -25,7 +25,7 @@
 
 @keyframes moveUp {
   from {
-    transform: translate(-50%, -50%) translateY(-3rem);
+    transform: translate(-50%, -50%) translateY(3rem);
     opacity: 30%;
   }
 
@@ -37,6 +37,6 @@
 
 @media screen and (orientation: portrait) {
   .videoContainer {
-    height: 90vh;
+    height: 87vh;
   }
 }
