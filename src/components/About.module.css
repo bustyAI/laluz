@@ -19,7 +19,7 @@
 .aboutHeadings div h3 {
   font-size: 3rem;
   margin: 0;
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 .aboutUs {
@@ -70,5 +70,5 @@
 }
 
 .fadeInUp {
-  animation: fadeInUp 3s ease-in-out;
+  animation: fadeInUp 2s ease-in;
 }
