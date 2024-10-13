@@ -47,53 +47,6 @@ export default function About() {
           ))}
         </div>
 
-
-
-
-
-        <div className={styles.aboutUs}>
-
-          {Object.entries(aboutUs).map(([key, value]) => (
-            <div className={styles.aboutUsContent} key={key}>
-              <div>
-                <h3 className={styles.aboutUsNumber}>{key}</h3>
-              </div>
-              <div style={{ width: '100%' }}>
-                <h3 className={styles.aboutUsText}>{value}</h3>
-              </div>
-            </div>
-          ))}
-
-        </div>
-        <div className={styles.aboutUs}>
-
-          {Object.entries(aboutUs).map(([key, value]) => (
-            <div className={styles.aboutUsContent} key={key}>
-              <div>
-                <h3 className={styles.aboutUsNumber}>{key}</h3>
-              </div>
-              <div style={{ width: '100%' }}>
-                <h3 className={styles.aboutUsText}>{value}</h3>
-              </div>
-            </div>
-          ))}
-
-        </div>
-        <div className={styles.aboutUs}>
-
-          {Object.entries(aboutUs).map(([key, value]) => (
-            <div className={styles.aboutUsContent} key={key}>
-              <div>
-                <h3 className={styles.aboutUsNumber}>{key}</h3>
-              </div>
-              <div style={{ width: '100%' }}>
-                <h3 className={styles.aboutUsText}>{value}</h3>
-              </div>
-            </div>
-          ))}
-
-        </div>
-
       </div >
 
     </section >

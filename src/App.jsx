@@ -3,6 +3,7 @@ import Video from './components/Video'
 import About from './components/About'
 
 import './App.css'
+import Founder from './components/Founder'
 
 
 function App() {
@@ -11,6 +12,12 @@ function App() {
       <Header />
       <Video />
       <About />
+      <Founder />
+      <About />
+      <About />
+      <About />
+      <About />
+
     </div>
 
   )
