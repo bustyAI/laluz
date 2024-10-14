@@ -1,0 +1,15 @@
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.meetOurArtist h3:nth-child(1) {
+  font-size: 1.7rem;
+  margin: 1rem;
+  margin-bottom: 0;
+}
+
+.meetOurArtist h3:nth-child(2) {
+  font-size: 2rem;
+  margin: 0 1rem 0 1rem;
+}

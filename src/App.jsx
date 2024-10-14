@@ -4,6 +4,7 @@ import About from './components/About'
 
 import './App.css'
 import Founder from './components/Founder'
+import Hero from './components/Hero'
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <Video />
       <About />
       <Founder />
-      <About />
+      <Hero />
       <About />
       <About />
       <About />
