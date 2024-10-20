@@ -1,25 +1,26 @@
 .heroContainer {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.meetOurArtist {
+  display: flex;
   flex-direction: column;
+  align-items: center;
 }
-
-.meetOurArtist h3:nth-child(1) {
+.meetOurArtist h1 {
   font-size: 1.7rem;
-  margin: 1rem;
-  margin-bottom: 0;
-}
-
-.meetOurArtist h3:nth-child(2) {
-  font-size: 2rem;
-  margin: 0 1rem 0 1rem;
+  margin: 6rem 0 3rem 0;
+  font-family: UnifrakturMaguntia, cursive;
+  font-size: 4rem;
+  letter-spacing: 0.6rem;
 }
 
 .artistCardContainer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  border-radius: 1rem;
-  border: 1px solid #cccccc;
-  margin: 0 1rem 0 1rem;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }

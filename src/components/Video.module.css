@@ -21,6 +21,7 @@
   font-weight: 500;
   color: white;
   animation: moveUp 1s ease-in-out;
+  font-family: UnifrakturMaguntia, cursive;
 }
 
 @keyframes moveUp {
