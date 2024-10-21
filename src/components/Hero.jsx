@@ -10,8 +10,9 @@ export default function Hero() {
       </div>
 
       <div className={styles.heroContainer}>
-
         <div className={styles.artistCardContainer}>
+          <ArtistCard />
+          <ArtistCard />
           <ArtistCard />
           <ArtistCard />
           <ArtistCard />
