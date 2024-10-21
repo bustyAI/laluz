@@ -70,3 +70,9 @@
     width: 100px;
   }
 }
+
+@media (max-width: 329px) {
+  .arrowIcon {
+    font-size: 1.5rem;
+  }
+}
