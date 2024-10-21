@@ -17,13 +17,25 @@
   width: 90%;
 }
 
+.imageCarousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.arrowIcon {
+  font-size: 2rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .artistImage {
-  height: 100%;
-  width: 100%;
+  height: 200px;
+  width: 200px;
   object-fit: cover;
   border-radius: 1rem;
   margin-bottom: 1.5rem;
-  filter: grayscale(1);
 }
 
 .artistExperience {
@@ -44,4 +56,17 @@
   margin: 0;
   font-weight: bold;
   width: 100%;
+}
+
+.arrowIcon:hover {
+  transform: scale(1.05);
+  opacity: 50%;
+  transition: transform 0.5s, opacity 0.5;
+}
+
+@media (max-width: 329px) {
+  .artistImage {
+    height: 100px;
+    width: 100px;
+  }
 }
