@@ -5,9 +5,9 @@ import { BsArrowRightCircle } from "react-icons/bs";
 import styles from './ArtistCard.module.css'
 
 const tattooImages = [
-  'public/tattoo-artist.jpg',
-  'public/tattoo-photo.jpg',
-  'public/tattoo-photo-2.jpg',
+  'tattoo-artist.jpg',
+  'tattoo-photo.jpg',
+  'tattoo-photo-2.jpg',
 
 ]
 
