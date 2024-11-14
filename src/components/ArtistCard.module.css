@@ -1,12 +1,12 @@
 .artistCard {
   display: flex;
   flex-direction: column;
-  background-color: #efefef;
+  background-color: #222222;
   align-items: center;
-  border: 1px solid #d3d3d3;
+  border: 1px solid #292929;
   width: 90%;
   border-radius: 1rem;
-  margin: 0 auto 0.5rem auto;
+  margin: 2rem auto 1rem auto;
 }
 
 .artistCardContent {
@@ -25,6 +25,7 @@
 }
 
 .arrowIcon {
+  color: #efefef;
   font-size: 2rem;
   background-color: transparent;
   cursor: pointer;
@@ -36,9 +37,12 @@
   object-fit: cover;
   border-radius: 1rem;
   margin-bottom: 1.5rem;
+  border: 0.5rem solid #292929;
+  box-shadow: white 2;
 }
 
 .artistExperience {
+  color: #efefef;
   margin: 0;
   font-weight: normal;
   width: 100%;
@@ -47,7 +51,7 @@
 .jobTitle {
   margin: 0;
   font-weight: lighter;
-  color: slategray;
+  color: #efefef;
   margin-bottom: 1rem;
   width: 100%;
 }
