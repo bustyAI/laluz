@@ -16,9 +16,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-  font-size: 4rem;
-  font-weight: 500;
+  font-size: 5rem;
+  font-weight: bolder;
   color: white;
   animation: moveUp 1s ease-in-out;
   font-family: UnifrakturMaguntia, cursive;
