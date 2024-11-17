@@ -37,10 +37,10 @@ export default function About() {
             <AnimationOnScroll animateOnce={true} offset={offsets[key]} animateIn={styles.fadeInUp} key={key}>
               <div className={styles.aboutUsContent} >
                 <div>
-                  <h3 className={styles.aboutUsNumber}>{key}</h3>
+                  <h5 className={styles.aboutUsNumber}>{key}</h5>
                 </div>
                 <div style={{ width: '100%' }}>
-                  <h3 className={styles.aboutUsText}>{value}</h3>
+                  <h5 className={styles.aboutUsText}>{value}</h5>
                 </div>
               </div>
             </AnimationOnScroll>

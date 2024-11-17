@@ -6,7 +6,7 @@
 .aboutContainer {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 40px;
   margin: 30px 20px;
 }
 
@@ -19,6 +19,7 @@
 .aboutHeadings div h3 {
   font-size: 3rem;
   margin: 0;
+  font-weight: 400;
   animation: fadeIn 1s ease-in-out;
 }
 
@@ -26,7 +27,7 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  gap: 20px;
+  gap: 1rem;
 }
 
 .aboutUsContent {
@@ -34,17 +35,21 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+  justify-content: center;
   width: 100%;
   gap: 10px;
 }
 
 .aboutUsText {
-  font-size: x-large;
   margin: 0;
+  font-size: 1.3rem;
+  font-weight: lighter;
 }
 
 .aboutUsNumber {
   margin: 0;
+  font-size: small;
+  font-weight: 100;
 }
 
 @keyframes fadeIn {
