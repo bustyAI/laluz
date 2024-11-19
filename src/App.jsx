@@ -1,10 +1,11 @@
 import Header from './components/Header'
 import Video from './components/Video'
-import About from './components/About'
+import Hero from './components/Hero'
+import AboutFounder from './components/AboutFounder'
+
 
 import './App.css'
-import Founder from './components/Founder'
-import Hero from './components/Hero'
+
 
 
 function App() {
@@ -12,12 +13,8 @@ function App() {
     <div>
       <Header />
       <Video />
-      <About />
-      <Founder />
+      <AboutFounder />
       <Hero />
-      <About />
-      <About />
-      <About />
 
     </div>
 

@@ -24,10 +24,10 @@ export default function About() {
 
         <div className={styles.aboutHeadings}>
           <div>
-            <h3>We Help</h3>
+            <h3>We help</h3>
           </div>
           <div>
-            <h3>Tattoo People</h3>
+            <h3>tattoo people</h3>
           </div>
         </div>
 

@@ -71,3 +71,9 @@
 .bringUp {
   animation: bringUp 4s ease-in-out;
 }
+
+@media (min-width: 1201px) {
+  .founderContainer {
+    height: 1000px;
+  }
+}
